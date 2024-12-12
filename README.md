@@ -94,17 +94,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### License Notice
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-### No Warranty
-
-The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability.
-
-### Use Restrictions
-
-You may not use the names of the contributors to endorse or promote products derived from this software without specific prior written permission.
 
 ## 💬 Feedback and Contributions
 
