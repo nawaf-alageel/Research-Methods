@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 # 🌌 Automated Data Collection and Analysis of Near-Earth Objects (NEOs)
 
 ## 📄 Overview
