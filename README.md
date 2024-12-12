@@ -1,127 +1,112 @@
-\# 🌌 Automated Data Collection and Analysis of Near-Earth Objects (NEOs)
+# 🌌 Automated Data Collection and Analysis of Near-Earth Objects (NEOs)
 
-\## 📄 Overview
+## 📄 Overview
 
 This project focuses on automating the collection and preparation of data related to Near-Earth Objects (NEOs) using the NASA NEO Feed API. The collected data includes details about NEOs' physical characteristics, orbital parameters, and close-approach information. The methodology ensures scalability, efficiency, and reusability for future analysis and machine learning applications.
 
-\## 🚀 Project Objectives
+## 🚀 Project Objectives
 
-\- Automate data collection of NEOs using NASA's APIs.
+- Automate data collection of NEOs using NASA's APIs.
+- Ensure data accuracy through cleaning and preprocessing techniques.
+- Provide reusable scripts for continuous data collection.
+- Analyze the data for scientific research, risk assessment, and educational purposes.
 
-\- Ensure data accuracy through cleaning and preprocessing techniques.
+## 💂️ Repository Structure
 
-\- Provide reusable scripts for continuous data collection.
-
-\- Analyze the data for scientific research, risk assessment, and educational purposes.
-
-\## 📂 Repository Structure
-
-\`\`\`bash
-
+```bash
 ├── API.ipynb
-
-│ └── Jupyter Notebook for automated data collection using the NASA NEO Feed API.
-
+│   └── Jupyter Notebook for automated data collection using the NASA NEO Feed API.
 │
-
 ├── ResearchMethods.pdf
-
-│ └── Detailed project report outlining the methodologies and findings.
-
+│   └── Detailed project report outlining the methodologies and findings.
 │
-
 └── README.md
+    └── Project documentation.
+```
 
-└── Project documentation.
+## 🌐 Data Source
 
-\`\`\`
-
-\## 🌐 Data Source
-
-\*\*API:\*\* NASA NEO Feed API
+**API:** [NASA NEO Feed API](https://api.nasa.gov/)
 
 Provides information about Near-Earth Objects (NEOs), including their orbits, sizes, and potential close approaches to Earth.
 
-\## 📈 Potential Uses of the Data
+## 📊 Potential Uses of the Data
 
-\- \*\*🔬 Scientific Research:\*\* Study NEO characteristics, orbits, and potential risks.
+- 🔬 **Scientific Research:** Study NEO characteristics, orbits, and potential risks.
+- 🛡️ **Risk Assessment:** Help governments and space agencies assess threats and develop mitigation strategies.
+- 🤖 **Machine Learning:** Train models to predict trajectories and impacts of NEOs.
+- 🎓 **Educational Purposes:** Teach students about space science and data analysis.
+- 🌍 **Public Awareness:** Raise awareness about NEOs and Earth protection measures.
 
-\- \*\*🛡️ Risk Assessment:\*\* Help governments and space agencies assess threats and develop mitigation strategies.
+## 💻 How to Run the Project
 
-\- \*\*🤖 Machine Learning:\*\* Train models to predict trajectories and impacts of NEOs.
+### Clone the Repository:
 
-\- \*\*🎓 Educational Purposes:\*\* Teach students about space science and data analysis.
+```bash
+git clone https://github.com/nawaf-alageel/Research-Methods.git
+```
 
-\- \*\*🌍 Public Awareness:\*\* Raise awareness about NEOs and Earth protection measures.
+### Navigate to the Project Directory:
 
-\## 💻 How to Run the Project
-
-1\. Clone the Repository:
-
-\`\`\`bash
-
-git clone https://github.com/nawaf-alageel/Research-Methods.git \`\`\`
-
-2.Navigate to the Project Directory:
-
-\`\`\`bash
-
+```bash
 cd Research-Methods
+```
 
-\`\`\`
+### Install Dependencies:
 
-3.Install Dependencies:
-
-\`\`\`bash
-
+```bash
 pip install requests pandas numpy matplotlib
+```
 
-\`\`\`
+## 📝 Contributors
 
-\## 📝 Contributors
+- **Anas Mohammed Alsubhi**
+- **Mohammed Khaled Altufayhi**
+- **Nawaf Abdulrhman Alageel**
+- **Albadar Ibrahim Almaymani**
+- **Abdullah Mansour Habit**
 
-Anas Mohammed Alsubhi
-
-Mohammed Khaled Altufayhi
-
-Nawaf Abdulrhman Alageel
-
-Albadar Ibrahim Almaymani
-
-Abdullah Mansour Habit
-
-\## 📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
-MIT License
+### MIT License
 
-livecodeserver
-
-Copy
-
-MIT License
-
-Copyright (c) \[2024\] \[Nawaf Alageel\]
+```
+Copyright (c) 2024 Nawaf Alageel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-
 of this software and associated documentation files (the "Software"), to deal
-
 in the Software without restriction, including without limitation the rights
-
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-
 copies of the Software, and to permit persons to whom the Software is
-
 furnished to do so, subject to the following conditions:
 
-...
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-\[Include any additional conditions or leave it as is for standard MIT\]
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
-💬 Feedback and Contributions
+### License Notice
 
-Contributions: Feel free to fork the repository and submit pull requests.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Issues: If you encounter any problems or have feature requests, please open an issue.
+### No Warranty
+
+The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability.
+
+### Use Restrictions
+
+You may not use the names of the contributors to endorse or promote products derived from this software without specific prior written permission.
+
+## 💬 Feedback and Contributions
+
+- **Contributions:** Feel free to fork the repository and submit pull requests.
+- **Issues:** If you encounter any problems or have feature requests, please open an issue.
